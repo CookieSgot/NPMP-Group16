@@ -1,0 +1,27 @@
+# skrivnosti in okolje
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# LaTeX: vmesne datoteke prevajanja
+porocilo/*.aux
+porocilo/*.bbl
+porocilo/*.blg
+porocilo/*.idx
+porocilo/*.ilg
+porocilo/*.ind
+porocilo/*.log
+porocilo/*.out
+porocilo/*.toc
+porocilo/*.fls
+porocilo/*.fdb_latexmk
+porocilo/*.synctex.gz
+porocilo/**/*.aux
+porocilo/*.pdf
+!porocilo/g16.pdf
+
+# prosojnice: vmesne datoteke (PDF obdrzimo)
+prosojnice/*
+!prosojnice/prosojnice.tex
+!prosojnice/prosojnice.pdf

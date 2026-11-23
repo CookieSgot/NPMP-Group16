@@ -1,0 +1,364 @@
+{
+ "backend": "ibm_marrakesh",
+ "shots": 10000,
+ "seed": 7,
+ "items": [
+  {
+   "n": 2,
+   "opt": 1,
+   "target": "10",
+   "k": 1,
+   "layout": [
+    0,
+    1
+   ],
+   "pre": {
+    "qubits": 2,
+    "depth": 12,
+    "ops": {
+     "h": 6,
+     "x": 6,
+     "cz": 2,
+     "measure": 2,
+     "barrier": 1
+    }
+   },
+   "post": {
+    "depth": 12,
+    "two_q": 2,
+    "ops": {
+     "rz": 12,
+     "sx": 6,
+     "cz": 2,
+     "measure": 2,
+     "barrier": 1
+    }
+   },
+   "ideal": 1.0
+  },
+  {
+   "n": 2,
+   "opt": 3,
+   "target": "10",
+   "k": 1,
+   "layout": [
+    0,
+    1
+   ],
+   "pre": {
+    "qubits": 2,
+    "depth": 12,
+    "ops": {
+     "h": 6,
+     "x": 6,
+     "cz": 2,
+     "measure": 2,
+     "barrier": 1
+    }
+   },
+   "post": {
+    "depth": 9,
+    "two_q": 2,
+    "ops": {
+     "sx": 6,
+     "rz": 3,
+     "cz": 2,
+     "measure": 2,
+     "barrier": 1
+    }
+   },
+   "ideal": 1.0
+  },
+  {
+   "n": 3,
+   "opt": 1,
+   "target": "100",
+   "k": 2,
+   "layout": [
+    52,
+    54,
+    53
+   ],
+   "pre": {
+    "qubits": 3,
+    "depth": 58,
+    "ops": {
+     "x": 20,
+     "h": 15,
+     "ccz": 4,
+     "measure": 3,
+     "barrier": 1
+    }
+   },
+   "post": {
+    "depth": 169,
+    "two_q": 45,
+    "ops": {
+     "rz": 85,
+     "sx": 82,
+     "cz": 45,
+     "x": 3,
+     "measure": 3,
+     "barrier": 1
+    }
+   },
+   "ideal": 0.9453125000000001
+  },
+  {
+   "n": 3,
+   "opt": 3,
+   "target": "100",
+   "k": 2,
+   "layout": [
+    52,
+    54,
+    53
+   ],
+   "pre": {
+    "qubits": 3,
+    "depth": 58,
+    "ops": {
+     "x": 20,
+     "h": 15,
+     "ccz": 4,
+     "measure": 3,
+     "barrier": 1
+    }
+   },
+   "post": {
+    "depth": 135,
+    "two_q": 37,
+    "ops": {
+     "sx": 75,
+     "rz": 63,
+     "cz": 37,
+     "x": 11,
+     "measure": 3,
+     "barrier": 1
+    }
+   },
+   "ideal": 0.9453125000000001
+  },
+  {
+   "n": 4,
+   "opt": 1,
+   "target": "0100",
+   "k": 3,
+   "layout": [
+    55,
+    54,
+    53,
+    52
+   ],
+   "pre": {
+    "qubits": 4,
+    "depth": 178,
+    "ops": {
+     "x": 42,
+     "h": 28,
+     "c3z": 6,
+     "measure": 4,
+     "barrier": 1
+    }
+   },
+   "post": {
+    "depth": 662,
+    "two_q": 189,
+    "ops": {
+     "sx": 393,
+     "rz": 324,
+     "cz": 189,
+     "measure": 4,
+     "barrier": 1
+    }
+   },
+   "ideal": 0.9613189697265625
+  },
+  {
+   "n": 4,
+   "opt": 3,
+   "target": "0100",
+   "k": 3,
+   "layout": [
+    55,
+    54,
+    53,
+    52
+   ],
+   "pre": {
+    "qubits": 4,
+    "depth": 178,
+    "ops": {
+     "x": 42,
+     "h": 28,
+     "c3z": 6,
+     "measure": 4,
+     "barrier": 1
+    }
+   },
+   "post": {
+    "depth": 504,
+    "two_q": 163,
+    "ops": {
+     "sx": 353,
+     "rz": 214,
+     "cz": 163,
+     "x": 7,
+     "measure": 4,
+     "barrier": 1
+    }
+   },
+   "ideal": 0.9613189697265625
+  },
+  {
+   "n": 5,
+   "opt": 1,
+   "target": "00110",
+   "k": 4,
+   "layout": [
+    54,
+    55,
+    39,
+    53,
+    52
+   ],
+   "pre": {
+    "qubits": 5,
+    "depth": 690,
+    "ops": {
+     "x": 64,
+     "h": 45,
+     "c4z": 8,
+     "measure": 5,
+     "barrier": 1
+    }
+   },
+   "post": {
+    "depth": 1841,
+    "two_q": 549,
+    "ops": {
+     "sx": 1104,
+     "rz": 1058,
+     "cz": 549,
+     "measure": 5,
+     "barrier": 1
+    }
+   },
+   "ideal": 0.9991823155432941
+  },
+  {
+   "n": 5,
+   "opt": 3,
+   "target": "00110",
+   "k": 4,
+   "layout": [
+    54,
+    55,
+    39,
+    53,
+    52
+   ],
+   "pre": {
+    "qubits": 5,
+    "depth": 690,
+    "ops": {
+     "x": 64,
+     "h": 45,
+     "c4z": 8,
+     "measure": 5,
+     "barrier": 1
+    }
+   },
+   "post": {
+    "depth": 1437,
+    "two_q": 517,
+    "ops": {
+     "sx": 1095,
+     "rz": 676,
+     "cz": 517,
+     "x": 13,
+     "measure": 5,
+     "barrier": 1
+    }
+   },
+   "ideal": 0.9991823155432941
+  },
+  {
+   "n": 6,
+   "opt": 1,
+   "target": "001000",
+   "k": 6,
+   "layout": [
+    55,
+    59,
+    52,
+    54,
+    39,
+    53
+   ],
+   "pre": {
+    "qubits": 6,
+    "depth": 1539,
+    "ops": {
+     "x": 132,
+     "h": 78,
+     "c5z": 12,
+     "measure": 6,
+     "barrier": 1
+    }
+   },
+   "post": {
+    "depth": 5305,
+    "two_q": 2073,
+    "ops": {
+     "sx": 4121,
+     "rz": 3145,
+     "cz": 2073,
+     "measure": 6,
+     "barrier": 1
+    }
+   },
+   "ideal": 0.9965856807867991
+  },
+  {
+   "n": 6,
+   "opt": 3,
+   "target": "001000",
+   "k": 6,
+   "layout": [
+    55,
+    59,
+    52,
+    54,
+    39,
+    53
+   ],
+   "pre": {
+    "qubits": 6,
+    "depth": 1539,
+    "ops": {
+     "x": 132,
+     "h": 78,
+     "c5z": 12,
+     "measure": 6,
+     "barrier": 1
+    }
+   },
+   "post": {
+    "depth": 4326,
+    "two_q": 1773,
+    "ops": {
+     "sx": 3810,
+     "rz": 2146,
+     "cz": 1773,
+     "x": 65,
+     "measure": 6,
+     "barrier": 1
+    }
+   },
+   "ideal": 0.9965856807867991
+  }
+ ],
+ "csv": "calibration/ibm_marrakesh_calibrations_2026-11-21T23_50_00Z.csv",
+ "job_id": "dc13ouds2omc738a4g90"
+}
